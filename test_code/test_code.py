@@ -1,9 +1,11 @@
 def main():
-    name = input("what's your name? ")
-    hello(name)
+    print("1 addition, 2 subtraction")
+    m = int(input(": "))
 
+    if m > 1:
+        print("sub")
+    else: 
+        print("add")
 
-def hello(to):
-    print("hello", to)
 
 main()
