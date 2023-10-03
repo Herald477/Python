@@ -1,11 +1,10 @@
-def main():
-    print("1 addition, 2 subtraction")
-    m = int(input(": "))
+def square(n):
+     return n * n
 
-    if m > 1:
-        print("sub")
-    else: 
-        print("add")
+
+def main():
+    number = int(input("square number "))
+    square(number)
 
 
 main()
