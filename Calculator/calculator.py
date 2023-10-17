@@ -38,7 +38,7 @@ def main():
         method = -4
 
     while z>-999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999:
-        print("Wanna add more numbers? 1=Yes - 2=No")
+        print("Want to add more numbers? 1=Yes - 2=No")
         con = int(input("Type here: y/n "))
 
 
