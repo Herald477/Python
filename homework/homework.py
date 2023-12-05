@@ -3,7 +3,6 @@ def main ():
     os.system("cls")
     print(":homework:")
     homeworks = {}
-    amount_correct = 0
 
     while True:
         swe_homework = input("\n\tType in your Swedish Homework: ")
