@@ -1,18 +1,19 @@
 import os
 result_back = ""
-result_for = ""
 
 os.system("cls")
-word = input("Word here: ").lower
+print("Atleast 2 letters!")
+word = input("Word here: ").lower()
 
-for backward in reversed(word):
-    result_back += backward
+if len(word) >= 2:
     
-for forward in word:
-    result_for += forward
+    for backward in reversed(word):
+        result_back += backward
 
-if result_back == result_for:
-    print("This is a Palindrome")
+    if result_back == word:
+        print("This is a Palindrome")
 
+    else:
+        print("This is NOT a Palindrome")
 else:
-    print("This is NOT a Palindrome")
+    print("Input 2 or more letters!")
